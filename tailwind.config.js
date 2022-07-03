@@ -7,7 +7,11 @@ module.exports = {
 		fontFamily: {
 			VT: ['VT323', 'monospace'],
 		},
-		extend: {},
+		extend: {
+			maxHeight: {
+				128: '32rem',
+			},
+		},
 	},
 	plugins: [],
 };

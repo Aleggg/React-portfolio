@@ -1,6 +1,24 @@
+import Window from '../Window/Window';
+import General from './General';
+import Education from './Education';
+import Skills from './Skills';
+import Expirience from './Expirience';
+
 const CV = () => {
 	return (
-		<div className='w-96 h-96 bg-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'></div>
+		<Window>
+			<div className='p-6 max-w-4xl max max-h-128 overflow-y-auto'>
+				<General />
+				<div className='flex '>
+					<div>
+						<Education />
+						<Expirience />
+					</div>
+
+					<Skills />
+				</div>
+			</div>
+		</Window>
 	);
 };
 

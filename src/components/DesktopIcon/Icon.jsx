@@ -3,11 +3,11 @@ import { NavLink } from 'react-router-dom';
 const Icon = (props) => {
 	return (
 		<NavLink
-			className='flex flex-col items-center justify-center text-center w-14 mb-6'
+			className='flex flex-col items-center justify-center text-center w-12 mb-6'
 			to={props.link}
 		>
 			<img src={props.iconImage} alt='icon' className='' />
-			<div>{props.iconName}</div>
+			<div className='text-white text-base'>{props.iconName}</div>
 		</NavLink>
 	);
 };

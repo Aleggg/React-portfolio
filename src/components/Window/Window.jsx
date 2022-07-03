@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Draggable from 'react-draggable';
 
@@ -13,11 +13,11 @@ const Window = (props) => {
 	};
 	const nodeRef = React.useRef(null);
 	const Y_POS = {
-		max: 300,
+		max: 150,
 		min: 100,
 	};
 	const X_POS = {
-		max: 900,
+		max: 700,
 		min: 300,
 	};
 	// top не більше 23 rem і не менше 2 rem
@@ -29,11 +29,13 @@ const Window = (props) => {
 			<div
 				ref={nodeRef}
 				style={{ top: y + 'px', left: x + 'px' }}
-				className={`bg-white fixed transform -translate-x-1/2 -translate-y-1/2 border-2 border-black rounded-md z-10`}
+				//style={{ top: '50px', left: '600px' }}
+				//transform -translate-x-1/2 -translate-y-1/2
+				className={`bg-white fixed  border-2 border-black rounded-md z-10`}
 			>
 				<div className='Header_Window h-8 border-b border-black flex justify-between '>
 					<div className='border-r border-black pr-1 pl-1 flex items-center'>
-						<img src={file} alt='file' className='w-8' />
+						<img src={file} alt='file' className='w-6' />
 					</div>
 					<div
 						className='w-full pt-px flex justify-center flex-col cursor-move'
