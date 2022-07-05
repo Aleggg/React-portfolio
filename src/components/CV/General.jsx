@@ -19,7 +19,7 @@ const General = () => {
 					<strong>Languages:</strong> Ukrainian(Native), English(Intermediate)
 				</p>
 			</div>
-			<img src={myPhoto} alt='me' className='w-40' />
+			<img src={myPhoto} alt='me' className='w-40 border-2 border-black' />
 		</div>
 	);
 };
