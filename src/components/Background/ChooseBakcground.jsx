@@ -38,7 +38,7 @@ const ChooseBakcground = () => {
 					<img
 						src={linearImg}
 						alt='linear'
-						className=' w-80 border-2 border-black p-1 hover:scale-105 cursor-pointer'
+						className=' w-80 border-2 duration-200 border-black p-1 hover:scale-105 cursor-pointer'
 						onClick={linearHandler}
 					/>
 					<p className='text-2xl text-center'>Linear 3D</p>
@@ -47,7 +47,7 @@ const ChooseBakcground = () => {
 					<img
 						src='https://giffiles.alphacoders.com/112/112254.gif'
 						alt='linear'
-						className=' w-80 border-2 border-black p-1 hover:scale-105 cursor-pointer h-40'
+						className=' w-80 border-2 duration-200 border-black p-1 hover:scale-105 cursor-pointer h-40'
 						onClick={gifHandler}
 					/>
 					<p className='text-2xl text-center'>Random GIF</p>

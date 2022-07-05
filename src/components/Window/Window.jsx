@@ -49,7 +49,11 @@ const Window = (props) => {
 					</div>
 					<div className='h-full pl-2 pr-2 border-l border-black flex items-center'>
 						<button onClick={closeHandler}>
-							<img src={closeBtn} alt='close' className='w-4' />
+							<img
+								src={closeBtn}
+								alt='close'
+								className='w-4 duration-200 hover:w-5'
+							/>
 						</button>
 					</div>
 				</div>
