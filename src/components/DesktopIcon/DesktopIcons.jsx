@@ -3,6 +3,7 @@ import contactsIcon from '../../assets/gmail.png';
 import CVIcon from '../../assets/pdf-file.png';
 import aboutIcon from '../../assets/txt.png';
 import wallpaperIcon from '../../assets/wallpaper.png';
+import radioIcon from '../../assets/radio.png';
 
 const DesktopIcons = () => {
 	return (
@@ -15,6 +16,7 @@ const DesktopIcons = () => {
 				iconName='Wallpaper.exe'
 				iconImage={wallpaperIcon}
 			/>
+			<Icon link='/radio' iconName='Radio.exe' iconImage={radioIcon} />
 		</div>
 	);
 };

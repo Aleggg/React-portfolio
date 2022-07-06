@@ -3,7 +3,7 @@ import Window from '../Window/Window';
 const About = () => {
 	return (
 		<Window>
-			<div className='p-4 max-h-96 max-w-xl overflow-y-auto'>
+			<div className='p-4 max-h-96 max-w-xl overflow-y-auto sm:max-w-xs'>
 				<h1 className='text-center text-3xl'>About me</h1>
 				<p className='mb-4 mt-4'>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eius

@@ -12,26 +12,14 @@ const Window = (props) => {
 		navigate('/');
 	};
 	const nodeRef = React.useRef(null);
-	const Y_POS = {
-		max: 150,
-		min: 100,
-	};
-	const X_POS = {
-		max: 700,
-		min: 300,
-	};
-	// top не більше 23 rem і не менше 2 rem
-	//  left не менше 10 і не більше ніж 51 rem
-	const y = Math.floor(Math.random() * (Y_POS.max - Y_POS.min + 1) + Y_POS.min);
-	const x = Math.floor(Math.random() * (X_POS.max - X_POS.min + 1) + X_POS.min);
 	return (
 		<Draggable nodeRef={nodeRef} handle='#handle'>
 			<div
 				ref={nodeRef}
-				style={{ top: y + 'px', left: x + 'px' }}
+				/* style={{ top: y + 'px', left: x + 'px' }} */
 				//style={{ top: '50px', left: '600px' }}
 				//transform -translate-x-1/2 -translate-y-1/2
-				className={`bg-white fixed  border-2 border-black rounded-md z-10`}
+				className={`bg-white  absolute top-10 left-96  border-2 border-black rounded-md z-10 sm:left-2 sm:top-20 `}
 			>
 				<div className='Header_Window h-8 border-b border-black flex justify-between '>
 					<div className='border-r border-black pr-1 pl-1 flex items-center'>

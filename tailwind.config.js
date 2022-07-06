@@ -12,6 +12,9 @@ module.exports = {
 				128: '32rem',
 			},
 		},
+		screens: {
+			sm: { max: '639px' },
+		},
 	},
 	plugins: [],
 };

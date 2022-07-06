@@ -11,6 +11,7 @@ import BackGround from './components/Background/BackGround';
 import ChooseBakcground from './components/Background/ChooseBakcground';
 import './App.css';
 import Clock from './components/Time/Clock';
+import Radio from './components/Radio/Radio';
 
 function App() {
 	const [background, setBackground] = useState('linear');
@@ -30,6 +31,7 @@ function App() {
 					<Route path='/about' element={<About />} />
 					<Route path='/wallpaper' element={<ChooseBakcground />} />
 					<Route path='/time' element={<Clock />} />
+					<Route path='/radio' element={<Radio />} />
 				</Routes>
 			</BackgroundContext.Provider>
 		</>
