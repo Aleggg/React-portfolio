@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Canvas, useLoader, useFrame } from '@react-three/fiber';
 import { TextureLoader } from 'three';
 
@@ -141,23 +141,25 @@ const Landscape = () => {
 
 const Linear = () => {
 	return (
-		<Canvas
-			style={{
-				position: 'absolute',
-				display: 'block',
-				top: 0,
-				left: 0,
-				zIndex: -1,
-				outline: 'none',
-			}}
-			camera={{ fov: 75, near: 0.01, far: 20, position: [0, 0.08, 1.1] }}
-		>
-			<color attach='background' args={['#000000']} />
-			<fog attach='fog' args={['#000000', 1, 2.5]} />
-			<Light />
-			{/* <Plane z={0.15} /> */}
-			<Landscape />
-		</Canvas>
+		<Suspense>
+			<Canvas
+				style={{
+					position: 'absolute',
+					display: 'block',
+					top: 0,
+					left: 0,
+					zIndex: -1,
+					outline: 'none',
+				}}
+				camera={{ fov: 75, near: 0.01, far: 20, position: [0, 0.08, 1.1] }}
+			>
+				<color attach='background' args={['#000000']} />
+				<fog attach='fog' args={['#000000', 1, 2.5]} />
+				<Light />
+				{/* <Plane z={0.15} /> */}
+				<Landscape />
+			</Canvas>
+		</Suspense>
 	);
 };
 

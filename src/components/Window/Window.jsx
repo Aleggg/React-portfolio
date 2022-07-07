@@ -7,7 +7,6 @@ import file from '../../assets/folder.png';
 
 const Window = (props) => {
 	const navigate = useNavigate();
-
 	const closeHandler = () => {
 		navigate('/');
 	};
@@ -16,9 +15,6 @@ const Window = (props) => {
 		<Draggable nodeRef={nodeRef} handle='#handle'>
 			<div
 				ref={nodeRef}
-				/* style={{ top: y + 'px', left: x + 'px' }} */
-				//style={{ top: '50px', left: '600px' }}
-				//transform -translate-x-1/2 -translate-y-1/2
 				className={`bg-white  absolute top-10 left-96  border-2 border-black rounded-md z-10 sm:left-2 sm:top-20 `}
 			>
 				<div className='Header_Window h-8 border-b border-black flex justify-between '>

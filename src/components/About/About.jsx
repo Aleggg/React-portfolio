@@ -6,33 +6,31 @@ const About = () => {
 			<div className='p-4 max-h-96 max-w-xl overflow-y-auto sm:max-w-xs'>
 				<h1 className='text-center text-3xl'>About me</h1>
 				<p className='mb-4 mt-4'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eius
-					velit doloribus sit officia omnis iste tenetur quia corporis optio
-					quae, inventore suscipit dicta ex ratione expedita magni ut. Dicta?
+					Hi! My name is Oleh and I`m front-end developer based in Ukraine. I
+					describe myself as a passionate, well-organized developer who loves
+					learning new things. My main skills are JS, HTML, CSS and React/Redux.
 				</p>
 				<p className='mb-4'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos facere
-					soluta placeat, accusantium fugiat numquam, expedita nihil, beatae
-					sequi ea voluptatibus ducimus ullam unde distinctio! Et blanditiis
-					asperiores ea?
+					Learn programming I`ve started in 2019 At Lviv Polytechnic National
+					University. My tasks was to make homeworks using C (that was blood,
+					sweat, and tears), later homeworks switch to C++, Java and so on. But
+					the main thing i learned is to tackle task if you have no idea how to
+					do it.
 				</p>
 				<p className='mb-4'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos facere
-					soluta placeat, accusantium fugiat numquam, expedita nihil, beatae
-					sequi ea voluptatibus ducimus ullam unde distinctio! Et blanditiis
-					asperiores ea?
+					In 2021 i decided to learn coding seriously and start my career as a
+					front-end developer. Why front-end? Because its much funnier than C in
+					university. Throughout my education I gained knowledge of JS, HTML,
+					CSS, React, GIT. And now my main goal is to find first position as
+					developer on real project.
 				</p>
 				<p className='mb-4'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos facere
-					soluta placeat, accusantium fugiat numquam, expedita nihil, beatae
-					sequi ea voluptatibus ducimus ullam unde distinctio! Et blanditiis
-					asperiores ea?
+					When not struggling with code, I'm going to the gym, figuring out
+					studying at university or just have a rest
 				</p>
 				<p className='mb-4 mt-4'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos facere
-					soluta placeat, accusantium fugiat numquam, expedita nihil, beatae
-					sequi ea voluptatibus ducimus ullam unde distinctio! Et blanditiis
-					asperiores ea?
+					Looking forward for joining a team of nice people who always can give
+					a hand and teach something new!
 				</p>
 			</div>
 		</Window>

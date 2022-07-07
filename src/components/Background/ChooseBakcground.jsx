@@ -13,6 +13,11 @@ const ChooseBakcground = () => {
 		'url("https://64.media.tumblr.com/dfc796e8192bfde5864b6611daa568bf/tumblr_osev3lVly21qaaytso2_500.gif")',
 		'url("https://c.tenor.com/M5iwvGvTK3oAAAAC/90s-anime-aesthetic.gif")',
 		'url("https://data.whicdn.com/images/339504877/original.gif")',
+		'url("https://c.tenor.com/u-HD_rGXzGMAAAAC/japan.gif")',
+		'url("https://i.gifer.com/origin/e6/e6e0387ff7b558ba773ca274decd95c8.gif")',
+		'url("https://i.gifer.com/JRoi.gif")',
+		'url("https://i.pinimg.com/originals/69/c1/5e/69c15e848e90f726bd75dd4fbcd256cf.gif")',
+		'url("https://data.whicdn.com/images/300653746/original.gif")',
 	];
 
 	const getRandomGif = () => {
