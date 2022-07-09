@@ -15,7 +15,7 @@ const Window = (props) => {
 		<Draggable nodeRef={nodeRef} handle='#handle'>
 			<div
 				ref={nodeRef}
-				className={`bg-white  absolute top-10 left-96  border-2 border-black rounded-md z-10 sm:left-2 sm:top-20 `}
+				className={`bg-white  absolute top-10 left-96  border-2 border-black rounded-md z-10 sm:left-2 sm:top-10 `}
 			>
 				<div className='Header_Window h-8 border-b border-black flex justify-between '>
 					<div className='border-r border-black pr-1 pl-1 flex items-center'>

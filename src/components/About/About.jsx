@@ -11,26 +11,26 @@ const About = () => {
 					learning new things. My main skills are JS, HTML, CSS and React/Redux.
 				</p>
 				<p className='mb-4'>
-					Learn programming I`ve started in 2019 At Lviv Polytechnic National
-					University. My tasks was to make homeworks using C (that was blood,
-					sweat, and tears), later homeworks switch to C++, Java and so on. But
-					the main thing i learned is to tackle task if you have no idea how to
-					do it.
+					I've started learning programming in 2019 At Lviv Polytechnic National
+					University. My tasks were to make homeworks using C (that was blood,
+					sweat, and tears), later homeworks switched to C++, Java and so on.
+					But the main thing i learned is to tackle task if you have no idea how
+					to do it.
 				</p>
 				<p className='mb-4'>
-					In 2021 i decided to learn coding seriously and start my career as a
+					In 2021 i decided to take on coding seriously and start my career as a
 					front-end developer. Why front-end? Because its much funnier than C in
 					university. Throughout my education I gained knowledge of JS, HTML,
-					CSS, React, GIT. And now my main goal is to find first position as
-					developer on real project.
+					CSS, React, GIT. And now my main goal is to get my first job as a
+					developer on a real project.
 				</p>
 				<p className='mb-4'>
 					When not struggling with code, I'm going to the gym, figuring out
-					studying at university or just have a rest
+					studying at university or just having a rest
 				</p>
 				<p className='mb-4 mt-4'>
-					Looking forward for joining a team of nice people who always can give
-					a hand and teach something new!
+					Looking forward to joining a team of nice people who always can give a
+					hand and teach something new!
 				</p>
 			</div>
 		</Window>

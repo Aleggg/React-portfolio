@@ -43,7 +43,7 @@ const ChooseBakcground = () => {
 					<img
 						src={linearImg}
 						alt='linear'
-						className=' w-80 border-2 duration-200 border-black p-1 hover:scale-105 cursor-pointer'
+						className=' w-80 border-2 duration-200 border-black p-1 hover:scale-105 cursor-pointer sm:w-42'
 						onClick={linearHandler}
 					/>
 					<p className='text-2xl text-center'>Linear 3D</p>

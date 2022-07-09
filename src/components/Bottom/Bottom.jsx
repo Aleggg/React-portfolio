@@ -20,7 +20,7 @@ const Bottom = () => {
 	}, []);
 
 	const showMenuHandler = () => {
-		setMenu(true);
+		setMenu((prevState) => !prevState);
 	};
 
 	return (
